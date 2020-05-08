@@ -1,0 +1,9 @@
+# Cargo.toml
+
+[package]
+name = "rusttcpclient"
+version = "1.0.0"
+
+[dependencies]
+crossterm = "0.17"
+tui = { version = "0.9", default-features = false, features = ['crossterm'] }
